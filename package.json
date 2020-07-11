@@ -1,6 +1,6 @@
 {
   "name": "react-site-announcement",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common react component for site announcements with role management",
   "main": "./dist/export.js",
   "scripts": {
