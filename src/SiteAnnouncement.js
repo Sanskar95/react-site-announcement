@@ -94,9 +94,9 @@ const ReactSiteAnnouncement = (props) => {
   useEffect(() => {
     function fetchData() {
       const data = props.data
-      if (data.messageText) {
+      if (data) {
         initializePermissions()
-        setUpEditor(data.messageText)
+        setUpEditor(data)
       }
     }
 
