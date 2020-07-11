@@ -1,0 +1,41 @@
+{
+  "name": "react-site-announcement",
+  "version": "1.0.0",
+  "description": "Common react component for site announcements with role management",
+  "main": "./dist/export.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src -d dist --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "watch": {
+    "build-package": "src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanskar95/react-site-announcement.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "draft-js": "^0.11.6",
+    "he": "^1.2.0",
+    "react": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.9.1"
+  },
+  "author": "Sanskar Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanskar95/react-site-announcement/issues"
+  },
+  "homepage": "https://github.com/Sanskar95/react-site-announcement#readme"
+}
