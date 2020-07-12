@@ -25,4 +25,4 @@ To be able to use the component, follow the steps below:
         
      
 ## Example
-     `<CommonApplicationAlert isAdmin={true} data={this.state.alertData} saveMessage={this.handleMessage}/> 
+     <ReactSiteAnnouncement isAdmin={true} data={this.state.alertData} saveMessage={this.handleMessage}/> 
